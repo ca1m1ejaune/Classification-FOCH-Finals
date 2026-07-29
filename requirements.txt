@@ -1,0 +1,17 @@
+# PyTorch / torchaudio : installer séparément selon votre version de CUDA,
+# via le sélecteur officiel https://pytorch.org/get-started/locally/
+# torch>=2.0
+# torchaudio>=2.0
+
+transformers>=4.40
+huggingface_hub>=0.20
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+jupyter
+notebook
+
+# FFmpeg n'est pas un paquet pip : à installer séparément et à rendre
+# accessible dans le PATH (backend de décodage audio pour torchaudio).
